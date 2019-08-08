@@ -1,0 +1,91 @@
+.div1{ width:50vmin;display: flex;justify-content: space-around;border:1px solid red;border-radius: 2vmin;padding: 1vmin 2vmin;}
+.span{ width:10vmin;height:10vmin;display: inline-block;border-radius: 50%;
+background: #ff615f;font-size: 4vmin;text-align: center;line-height: 10vmin;
+color:#fff;position: relative;overflow: hidden;
+}
+html { width: 100vw; height: 100vh; overflow: hidden;}
+body { background: url("../images/bg.jpg"); width: 100%;height: 100%; }
+button{ width: 10vmin;display: inline-block;height: 4vmin;border-radius: 1vmin;outline: 0;color: red;font-size: 2vmin;margin-top: 1vmin;}
+.span1 { color: #ff615f;position: absolute;left: 80%;cursor: pointer;z-index: 1000;}
+#bot1,#bot2,#bot3{display: none;}
+#d3 { margin: 5vmin auto; width: 50%; }
+#d7 { width: 50%;height: 10vmin;margin: 10vmin auto;font-size: 4vmin;color: red; }
+#d6 { position: absolute; top:0;}
+video {
+    width: 55vmin;
+    height: 97vmin;
+    outline: 0;
+}
+#d5 {
+    width: 30%;
+    margin: 0 auto;position: relative;
+    z-index: 100;
+}
+@keyframes you{
+    0%{ top: -70px; }
+    70%{top:40px}
+    100%{top:0px}
+}
+
+
+.animation{
+    animation: you .5s;
+    animation-fill-mode :forwards;
+}
+
+@keyframes s{
+    0%{ top: -70px; }
+    100%{top:100px}
+}
+.animation-1{
+    animation: s .5s;
+    animation-fill-mode :forwards;
+}
+
+@keyframes d2{
+    0%{ font-size: 2vmin; }
+    70%{font-size:5vmin}
+    100%{font-size:2vmin}
+}
+
+
+#d2{
+    animation: d2 2s infinite alternate;
+    animation-iteration-count: infinite;
+    height: 6vmin;
+    white-space: nowrap;
+}
+
+@keyframes d4{
+    0%{ font-size: 2vmin; }
+    70%{font-size:5vmin}
+    100%{font-size:2vmin}
+}
+
+
+#d4{
+    animation: d4 2s infinite alternate;
+    animation-fill-mode :forwards;
+    color: red;
+    position: absolute;
+}
+
+
+.snowfall-flakes { /*.class类选择器*/ position: relative; width: 20px !important; height: 18px !important; }
+.snowfall-flakes:before, .snowfall-flakes:after { content: ""; /*不管有没有内容都必须写这句*/ width: 10px; height: 16px; position: absolute; background: #ff615f; display: block; /*块级元素*/ border-radius: 10px 10px 0 0; /*圆角:左上 右上 右下 左下*/ transform: rotate(-45deg); /*css3变换:旋转*/ left: 10px; /*方位值:距离参考物左端的距离*/ top: -20px; /*距离参考物上端的距离*/ }
+.snowfall-flakes:before { transform: rotate(45deg); left: 14px; }
+.delet { display: inline-block; width: 5vmin;height: 4vmin;background: #ff7182;color: #fff;border-radius: 1vmin;font-size: 2vmin;text-align: center;line-height: 4vmin;position: relative; left: 2vmin;top: 2vmin; cursor: pointer;}
+
+a,#d6 > div {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vmin;
+    padding: 1.8vmin;
+    background: #c5323f;
+    border-radius: 1vmin;
+    display: block;
+    width: 20vmin;
+    text-align: center;
+    margin-top: .7vmin;
+}

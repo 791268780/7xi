@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/demo.css">
+</head>
+<body >
+       
+    <div id="d5" style="display: none">
+        <span class="span1" onclick="spanhiden()">下一步</span>
+        <div id="d4">美国队长，了解一下</div>
+        <video src="./public/1.mp4"  autoplay="autoplay" loop="loop" controls="controls"></video>
+    </div>
+    <div id="d3" style="display: none;">
+        <div id="d2">要是摇到3颗心，就让你嘿嘿嘿</div>
+        <div class="div1">
+            <span class="span"></span>
+            <span class="span"></span>
+            <span class="span"></span>
+        </div>  
+        <div id="d1" style="color: red"></div>
+        <button onclick="sss(0)">开始</button>
+        <button onclick="sss(1)">结束</button>
+        <button onclick="one()" id="bot1">一把过</button>
+        <button onclick="tow()" id="bot2">简单一点</button>
+        <button onclick="three()" id="bot3">变态</button>
+    </div>
+    
+    <div id="d7" style="display: none;">接下来的东西， 可以玩一年</div>
+    <div id="d6" style="display: none;">
+        <a href="./public/3d旋转相册，/index.html" target="_Blank">3d旋转相册</a>
+        <a href="./public/12.31 3D翻转魔方/index.html" target="_Blank">魔方</a>
+        <a href="./public/俄罗斯方块/俄罗斯方块.html" target="_Blank">俄罗斯方块游戏</a>
+        <a href="./public/几何旋转特效/index.html" target="_Blank">几何旋转</a>
+        <a href="./public/圣诞表白特效/七夕.html" target="_Blank">七夕</a>
+        <a href="./public/碎片轮播/index.html" target="_Blank">碎片轮播</a>
+        <a href="./public/跳动爱心/跳动爱心.html" target="_Blank">跳动爱心</a>
+        <a href="./public/烟花/index.html" target="_Blank">点击看烟花</a>
+        <a href="./public/照片墙/index.html" target="_Blank">照片墙</a>
+        <a href="./public/水墨画.html" target="_Blank">水墨画</a>
+        <a href="./public/真实烟花.html" target="_Blank">自动看烟花</a>
+        <a href="./public/重力球.html" target="_Blank">重力球游戏</a>
+        <a href="./public/最炫酷粒子.html" target="_Blank">炫酷特效</a>
+        <div onclick="showvideo()">视频</div>
+    </div>
+    
+    <script src="./js/demo.js"></script>
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/snowfall.jquery.js"></script>
+    <script>
+        $(document).snowfall({
+            flakeCount: 200
+        })
+    </script>
+</body>
+</html>
